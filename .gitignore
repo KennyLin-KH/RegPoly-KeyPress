@@ -50,6 +50,9 @@ public class RegularPolygon extends Canvas.Shape
         x = newX;
         y = newY;
     }
+    public void mouseClicked() {
+        noSides--;
+    }
     
 
     /**
